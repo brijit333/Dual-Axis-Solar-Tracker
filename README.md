@@ -1,12 +1,14 @@
 Dual Axis Solar Tracker using ESP32
 
 DESCRIPTION
+
 In a world rapidly shifting towards sustainable energy, our project presents an intelligent solution to maximize solar power efficiency — the Dual Axis Solar Tracker using ESP32.
 Unlike conventional solar panels that remain fixed and capture sunlight only at certain angles, this system dynamically follows the sun throughout the day. By continuously aligning the panel perpendicular to sunlight, it ensures maximum energy absorption from sunrise to sunset.
 At the heart of this system lies the powerful ESP32, which acts as the brain of the operation. Using strategically placed Light Dependent Resistors (LDRs), the system senses the intensity and direction of sunlight in real time. The ESP32 processes this data and intelligently commands servo motors to adjust the panel’s position along both horizontal and vertical axes.
 This dual-axis movement enables precise solar tracking, significantly enhancing energy output — up to 40% more efficiency compared to fixed systems.
 
 COMPONENTS USED
+
 - ESP32  
 - LDR Sensors (4)  
 - Servo Motors (2)  
@@ -16,6 +18,7 @@ COMPONENTS USED
 
 
 FEATURES
+
 - Smart control using ESP32  
 - Real-time sunlight tracking  
 - Dual axis movement (horizontal & vertical)  
@@ -25,6 +28,7 @@ FEATURES
 
 
 WORKING
+
 1. Sunlight falls on the LDR sensors placed around the solar panel.  
 2. Each LDR senses light intensity and produces a voltage based on it.  
 3. The ESP32 reads these values using its ADC pins.  
