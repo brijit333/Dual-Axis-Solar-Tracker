@@ -38,7 +38,6 @@ WORKING
 7. The panel aligns towards the direction of maximum sunlight.  
 8. This process repeats continuously throughout the day.
 
-Result: The solar panel always faces the sun, ensuring maximum power generation.
 
 
 <img width="623" height="582" alt="image" src="https://github.com/user-attachments/assets/9b44d08e-162c-42e1-9006-fac015b62bca" />
