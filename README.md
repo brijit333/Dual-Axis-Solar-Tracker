@@ -1,4 +1,4 @@
-Dual Axis Solar Tracker using ESP32
+DUAL AXIS SOLAR TRACKER
 
 DESCRIPTION
 
