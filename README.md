@@ -52,10 +52,4 @@ Result
 The system successfully tracks the sun in two axes and increases energy efficiency compared to fixed solar panels.
 
 
-
- Future Scope
-- IoT monitoring using WiFi  
-- Automatic cleaning system  
-- Battery storage integration  
-
--
+ 
