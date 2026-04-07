@@ -1,0 +1,72 @@
+#include <Servo.h>
+
+// LDR pins
+#define LDR_TL 34   // Top Left
+#define LDR_TR 35   // Top Right
+#define LDR_BL 32   // Bottom Left
+#define LDR_BR 33   // Bottom Right
+
+// Servo pins
+#define SERVO_H 25  // Horizontal
+#define SERVO_V 26  // Vertical
+
+Servo servoH;
+Servo servoV;
+
+int posH = 90;  // initial position
+int posV = 90;
+
+int threshold = 50;  // sensitivity
+
+void setup() {
+  Serial.begin(115200);
+
+  servoH.attach(SERVO_H);
+  servoV.attach(SERVO_V);
+
+  servoH.write(posH);
+  servoV.write(posV);
+}
+
+void loop() {
+
+  int tl = analogRead(LDR_TL);
+  int tr = analogRead(LDR_TR);
+  int bl = analogRead(LDR_BL);
+  int br = analogRead(LDR_BR);
+
+  Serial.print("TL: "); Serial.print(tl);
+  Serial.print(" TR: "); Serial.print(tr);
+  Serial.print(" BL: "); Serial.print(bl);
+  Serial.print(" BR: "); Serial.println(br);
+
+  // Average values
+  int top = (tl + tr) / 2;
+  int bottom = (bl + br) / 2;
+  int left = (tl + bl) / 2;
+  int right = (tr + br) / 2;
+
+  // Vertical movement
+  if (abs(top - bottom) > threshold) {
+    if (top > bottom) {
+      posV--;
+    } else {
+      posV++;
+    }
+    posV = constrain(posV, 0, 180);
+    servoV.write(posV);
+  }
+
+  // Horizontal movement
+  if (abs(left - right) > threshold) {
+    if (left > right) {
+      posH++;
+    } else {
+      posH--;
+    }
+    posH = constrain(posH, 0, 180);
+    servoH.write(posH);
+  }
+
+  delay(200);
+}
