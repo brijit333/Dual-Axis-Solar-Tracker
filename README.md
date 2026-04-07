@@ -1,6 +1,8 @@
 DUAL AXIS SOLAR TRACKER
 
 DESCRIPTION
+![WhatsApp Image 2026-04-08 at 00 10 20](https://github.com/user-attachments/assets/cb68a2f0-ec68-4a8b-ade6-7060693461b6)
+
 
 In a world rapidly shifting towards sustainable energy, our project presents an intelligent solution to maximize solar power efficiency — the Dual Axis Solar Tracker using ESP32.
 Unlike conventional solar panels that remain fixed and capture sunlight only at certain angles, this system dynamically follows the sun throughout the day. By continuously aligning the panel perpendicular to sunlight, it ensures maximum energy absorption from sunrise to sunset.
@@ -40,9 +42,9 @@ WORKING
 
 
 
-<img width="623" height="582" alt="image" src="https://github.com/user-attachments/assets/9b44d08e-162c-42e1-9006-fac015b62bca" />
-
+ 
 <img width="1920" height="1080" alt="Screenshot (57)" src="https://github.com/user-attachments/assets/df886ec5-3de7-4c84-8119-ca76b0a988eb" />
+ 
 
 
 
