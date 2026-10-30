@@ -44,8 +44,8 @@ WORKING
 
 
  
-<img width="1920" height="1080" alt="Screenshot (57)" src="https://github.com/user-attachments/assets/df886ec5-3de7-4c84-8119-ca76b0a988eb" />
- 
+ <img width="1448" height="1086" alt="image" src="https://github.com/user-attachments/assets/8b26365d-de5d-4aee-bdff-07742dde530c" />
+
 
 
 
