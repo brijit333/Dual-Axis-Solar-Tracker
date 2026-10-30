@@ -7,8 +7,8 @@ Unlike conventional solar panels that remain fixed and capture sunlight only at 
 At the heart of this system lies the powerful ESP32, which acts as the brain of the operation. Using strategically placed Light Dependent Resistors (LDRs), the system senses the intensity and direction of sunlight in real time. The ESP32 processes this data and intelligently commands servo motors to adjust the panel’s position along both horizontal and vertical axes.
 This dual-axis movement enables precise solar tracking, significantly enhancing energy output — up to 40% more efficiency compared to fixed systems.
 
-![WhatsApp Image 2026-04-08 at 00 5 6](https://github.com/user-attachments/assets/cb68a2f0-ec68-4a8b-ade6-7060693461b6)
-
+  
+ <img width="1448" height="1086" alt="image" src="https://github.com/user-attachments/assets/8b26365d-de5d-4aee-bdff-07742dde530c" />
 
 COMPONENTS USED
 
@@ -44,12 +44,12 @@ WORKING
 
 
  
- <img width="1448" height="1086" alt="image" src="https://github.com/user-attachments/assets/8b26365d-de5d-4aee-bdff-07742dde530c" />
+ 
 
 
 
 
- DEMO VIDEO
+ simulation video
  
  https://drive.google.com/file/d/1LcjlcnVqPUfmlFSG5fc1pDEJjSLjp7CA/view?usp=drivesdk
  
